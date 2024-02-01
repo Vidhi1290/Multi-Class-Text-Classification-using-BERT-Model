@@ -3,15 +3,30 @@
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release)
 [![PyTorch Version](https://img.shields.io/badge/pytorch-1.8%2B-orange)](https://pytorch.org/get-started/locally/)
 
-## Overview
+## Project Overview
 
-- Predict consumer financial product categories using BERT, a powerful pre-trained NLP model.
-- Dataset: Over two million customer complaints.
+### 🏢 Business Overview
+In this NLP project, we aim to perform multiclass text classification using a pre-trained BERT model. The dataset consists of more than two million customer complaints about consumer financial products, with columns for complaint text and product labels.
+
+### 🎯 Aim
+The goal is to leverage the power of the BERT (Bidirectional Encoder Representations) model, an open-source ML framework for Natural Language Processing, to achieve state-of-the-art results in multiclass text classification.
+
+## Data Description
+
+The dataset includes customer complaints about financial products, with columns for complaint text and product labels. The task is to predict the product category based on the complaint text.
 
 ## Tech Stack
 
 - **Language:** Python
-- **Libraries:** pandas, torch, nltk, sklearn, transformers
+- **Libraries:** pandas, torch, nltk, numpy, pickle, re, tqdm, sklearn, transformers
+
+## Prerequisite
+
+1. Install the torch framework
+2. Understanding of Multiclass Text Classification using Naive Bayes
+3. Familiarity with Skip Gram Model for Word Embeddings
+4. Knowledge of building Multi-Class Text Classification Models with RNN and LSTM
+5. Understanding Text Classification Model with Attention Mechanism in NLP
 
 ## Approach
 
