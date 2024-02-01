@@ -1,5 +1,8 @@
 # Multi-Class Text Classification with BERT 🚀
 
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release)
+[![PyTorch Version](https://img.shields.io/badge/pytorch-1.8%2B-orange)](https://pytorch.org/get-started/locally/)
+
 ## Overview
 
 - Predict consumer financial product categories using BERT, a powerful pre-trained NLP model.
@@ -10,28 +13,19 @@
 - **Language:** Python
 - **Libraries:** pandas, torch, nltk, sklearn, transformers
 
-## Prerequisites
-
-1. Install torch framework.
-2. Familiarity with text classification using Naive Bayes, Skip Gram, RNN, and LSTM.
-3. Understand attention mechanisms in NLP.
-
 ## Approach
 
-1. **Installation**
-   - Use pip to install required packages.
-
-2. **Data Processing**
+1. **Data Processing**
    - Read CSV, handle null values, encode labels, preprocess text.
 
-3. **Model Building**
+2. **Model Building**
    - Create BERT model, define dataset, train and test functions.
 
-4. **Training**
+3. **Training**
    - Load data, split, create datasets and loaders.
    - Train BERT model on GPU/CPU.
 
-5. **Predictions**
+4. **Predictions**
    - Make predictions on new text data.
 
 ## Project Structure
@@ -48,4 +42,6 @@
 3. Data preparation and model training.
 4. Making predictions on new data.
 
-Explore and contribute! 🌐✨
+## Open for Project Collaboration
+
+🤝 **Kindly connect on [LinkedIn](https://www.linkedin.com/in/vidhi-waghela-434663198/) and follow on [Kaggle](https://www.kaggle.com/vidhikishorwaghela). Let's collaborate and innovate together! 🌐✨
